@@ -1,7 +1,7 @@
 'use strict'
 
 const mongoose = require('mongoose')
-const app = require('../app_express.js')
+const app = require('../app.js')
 const config = require('./config.js')
 
 const connexion = mongoose.connect(config.db, (err, res) => {
